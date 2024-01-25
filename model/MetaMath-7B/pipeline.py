@@ -3,7 +3,6 @@ from transformers import pipeline
 
 pipe = pipeline("text-generation", model="meta-math/MetaMath-7B-V1.0")
 
-
 # Example prompt
 prompt = "Solve the equation: 2x + 3 = 11"
 
